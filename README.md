@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Weather Analytics Dashboard (Frontend)
 
 This is a minimal, runnable React frontend for the Weather Analytics Dashboard assignment.
@@ -15,3 +16,6 @@ This is a minimal, runnable React frontend for the Weather Analytics Dashboard a
    ```
 
 This project is frontend-only and uses OpenWeatherMap One Call API (3.0). The API key is required.
+=======
+# -Weather-Analytics-Dashboard
+>>>>>>> d62d4af694fe3010623341af9029a0e0a09a0d06
