@@ -1,21 +1,63 @@
-<<<<<<< HEAD
-# Weather Analytics Dashboard (Frontend)
+# 🌦️ Weather Dashboard
 
-This is a minimal, runnable React frontend for the Weather Analytics Dashboard assignment.
+A modern **React-based Weather Dashboard** that allows users to search for current weather conditions, view forecasts, and manage favorite cities — all in a clean, responsive interface.
 
-## Setup
+---
 
-1. Copy `.env.local.example` to `.env.local` and fill in `REACT_APP_OWM_API_KEY` with your OpenWeatherMap API key.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run:
-   ```bash
-   npm start
-   ```
+## 🚀 Project Overview
 
-This project is frontend-only and uses OpenWeatherMap One Call API (3.0). The API key is required.
-=======
-# -Weather-Analytics-Dashboard
->>>>>>> d62d4af694fe3010623341af9029a0e0a09a0d06
+This project is a **frontend-only** React application built as part of a technical assessment.  
+It fetches live weather data from the **OpenWeatherMap API** and displays temperature, humidity, conditions, and more.
+
+### 🎯 Key Features
+- 🌍 Search weather by city name  
+- 🌡️ Display temperature, humidity, and wind speed  
+- 🔄 Toggle between Celsius and Fahrenheit  
+- ⭐ Add / remove favorite cities (stored in localStorage)  
+- 💾 Auto-caching of last searched results  
+- 📱 Responsive design (works on mobile and desktop)  
+- ⚙️ Error handling for invalid inputs or missing API key  
+
+---
+
+## 🧩 Tech Stack
+- **React 18**
+- **React Router DOM**
+- **Redux Toolkit** (for state management)
+- **Axios** (for API calls)
+- **OpenWeatherMap API**
+- **Tailwind CSS / CSS modules**
+
+---
+
+## 🗂️ Project Structure
+
+weather-dashboard/
+├── src/
+│ ├── components/
+│ │ ├── SearchBar.jsx
+│ │ ├── WeatherCard.jsx
+│ │ ├── FavoriteList.jsx
+│ ├── features/
+│ │ ├── weatherSlice.js
+│ │ ├── favoritesSlice.js
+│ ├── api/
+│ │ └── weatherApi.js
+│ ├── utils/
+│ │ └── debounce.js
+│ ├── App.js
+│ └── index.js
+├── .env.local.example
+├── package.json
+├── README.md
+└── public/
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone or extract the project
+```bash
+cd weather-dashboard
+
