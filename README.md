@@ -30,31 +30,6 @@ It fetches live weather data from the **OpenWeatherMap API** and displays temper
 
 ---
 
-## 🗂️ Project Structure
-
-weather-dashboard/
-├── src/
-│ ├── components/
-│ │ ├── SearchBar.jsx
-│ │ ├── WeatherCard.jsx
-│ │ ├── FavoriteList.jsx
-│ ├── features/
-│ │ ├── weatherSlice.js
-│ │ ├── favoritesSlice.js
-│ ├── api/
-│ │ └── weatherApi.js
-│ ├── utils/
-│ │ └── debounce.js
-│ ├── App.js
-│ └── index.js
-├── .env.local.example
-├── package.json
-├── README.md
-└── public/
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone or extract the project
