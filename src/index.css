@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #f5f7fb; color: #111; }
+.app-header { display:flex; align-items:center; justify-content:space-between; padding:16px; background:#1e293b; color:white; }
+.container { padding:16px; max-width:1100px; margin:0 auto; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(220px,1fr)); gap:12px; margin-top:16px; }
+.city-card { background:white; border-radius:8px; padding:12px; box-shadow:0 1px 4px rgba(0,0,0,0.08); cursor:pointer; }
+.city-card h3 { margin:0 0 8px 0; font-size:16px; }
+.temp { font-size:28px; font-weight:600; }
+.search-bar { margin-left:16px; }
+.search-bar input { padding:8px 10px; border-radius:6px; border:1px solid #ccd; width:220px; }
+.suggestions { list-style:none; padding:8px; margin:4px 0 0 0; background:white; border:1px solid #ddd; border-radius:6px; max-height:200px; overflow:auto; }
+.suggestions li { padding:8px; cursor:pointer; }
+.modal { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.4); }
+.modal-content { width:90%; max-width:900px; background:white; padding:20px; border-radius:8px; max-height:90vh; overflow:auto; }
+.close { background:#ef4444; color:white; border:none; padding:6px 10px; border-radius:6px; cursor:pointer; }
+.unit-toggle button { margin-left:6px; padding:6px 8px; border-radius:6px; border:1px solid #ccc; background:white; cursor:pointer; }
+.unit-toggle .active { background:#0369a1; color:white; border-color:#0369a1; }
